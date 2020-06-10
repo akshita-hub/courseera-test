@@ -1,0 +1,39 @@
+
+.main{
+    height:386;
+    overflow:auto;
+}
+.logindiv{
+    background-color: brown;
+    display:inline-block;
+    position: relative;
+    margin-left:500;
+    vertical-align:top;
+}
+.registrationdiv{
+    background-color: blue;
+    display:inline-block;
+    position:relative;
+    margin-left: 50;
+}
+.head{
+    background-color: greenyellow;
+    display:block;
+    text-align: center;
+    
+}
+.foot{
+    background-color: blueviolet;
+    display:block;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
+.list{
+    display:block;
+    position:relative;
+    margin-left: 600;
+    background-color: indianred;
+}

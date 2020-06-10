@@ -1,0 +1,15 @@
+.login div{
+    display: inline;
+background-color: brown;
+position: absolute;
+
+
+
+}
+.registration div{
+    display: inline;
+    background-color: green;
+    position:absolute;
+    margin-left:80%;
+
+}

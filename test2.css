@@ -1,0 +1,25 @@
+
+    *{
+        box-sizing: border-box;
+    }
+
+.logindiv{
+    background-color: brown;
+    padding:10px 10px 10px 10px;
+    border:20px solid black;
+    margin:40px;
+    width:700;
+    box-sizing: border-box;
+
+
+    
+}
+.content{
+        background-color: green;
+        margin-top:15px;
+    }
+body{
+    background-color: blueviolet;
+    margin:0;
+    padding:0;
+}

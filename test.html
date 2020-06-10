@@ -1,49 +1,65 @@
 <html>
     <head>
-    <title><B>LOGIN PAGE</B> </title>
-    <style>
-    FORM1{
-    
-                position:relative;
-                left:auto;
-                top:auto;
+        <style>
+            h1{
+                margin-top: 10;
+            }
+            div{
+                border: 2px solid black;
+                margin-bottom: 20;
+            }
+            .p1{
+                background-color:chocolate;
+                height:200;
+                width:300;
+
+            }
+            .p2{
+                background-color: crimson;
+                height:50;
+                width:60;
+
+            }
+            @media (min-width:1200px){
+                .p1{
+                    width: 80%;
+                }
+                .p2{
+                    width:80;
+                }
+
+            }
+            @media (min-width:700px) and (max-width: 1100px){
+                .p1{
+                    width: 50%;
+                }
+                .p2{
+                    width:20;
+                }
+
+            }
 
 
             }
-            
-    </style>
-</head>
-    <body>
-        
-        <FORM>
-                <div><h1>login</h1></div>
-              <div style = background-color:brown;>
-            <label for="username">username:</label><br>
-            <input type ="text" id="username" name="username"><br>
-            <label for ="password">password:</label><br>
-            <input type="text" id="password" name="password"><br>
-            <input type="button"  value="LOGIN">
+        </style>
+    
+    </head>
+    <body >
+        <h1>MEDIA QUERIES</h1>
+        <div class="p1">
+
         </div>
-    </FORM>
-<FORM1>
+        <div class="p2">
+
+        </div>
         
-            <h2><div>registration<br></div><h2></h2>
-            <h3><div style= background-color:cadetblue; >
-                <label for="fname">fname:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">lname:</label><br>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email id">email id:</label><br>
-                <input type="text" id="email id" name="email id"><br>
-                <label for="password">password:</label><br>
-                <input type="text" id="password" name="password"><br>
-                <input type= "button" value="singup" >
-             </div>
-             </h3>
-            
+    
+        
+    
 
         
+        
 
-        </FORM1>
+        
     </body>
 </html>
