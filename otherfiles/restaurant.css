@@ -1,10 +1,11 @@
 body{
-    background-color: maroon;
+    background-color: rgb(0, 109, 128);
     font-size: medium;
     color: mintcream;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 
 
 .navbar-brand h1{
@@ -32,9 +33,11 @@ body{
 .navbar-toggler {
 position:fixed;
 right:50px;
+
 }
 #nav-list{
     margin-top: 10px;
+
     
 }
 #nav-list .nav-item a{
@@ -55,7 +58,7 @@ right:50px;
     padding-bottom:0;
 }
 #phone div{
-    color:green;
+    color:palevioletred;
     text-align:right;
     padding-right:15px;
 }
@@ -63,6 +66,7 @@ right:50px;
     border-color: maroon;
     
 }
+
 
 
 /* // Small devices (landscape phones, 576px and below) */
@@ -73,7 +77,15 @@ right:50px;
         top:20px;
         
     }
-}
+    #nav-list{
+        align-items:center ;
+    }
+    #navbarnav{
+        padding-top: 100px;
+
+    }
+    }
+
 
 /* // Medium devices (tablets, 768px and down) */ 
  @media (max-width: 768px) { 
@@ -81,6 +93,13 @@ right:50px;
         position: fixed !important;
         right:90;
         top:20px
+    }
+    #nav-list{
+        align-items:center ;
+    }
+    #navbarnav{
+        padding-top: 100px;
+
     }
 }
 
@@ -91,4 +110,5 @@ right:50px;
         left:140px;
         top:0px;
     }
+    
  }
