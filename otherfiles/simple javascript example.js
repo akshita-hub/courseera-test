@@ -100,34 +100,34 @@
 //  document.write("<br/>",result);
 
 
-// // functions passing by value
-// function passbyvalue (value1){
+// functions passing by value
+function passbyvalue (value1){
 
-//   document.write("<br/> before <br/> value1: " +value1);
-//   document.write("<br/> value2: " +value2);
+  document.write("<br/> before <br/> value1: " +value1);
+  document.write("<br/> value2: " +value2);
 
-// value1 = 5;
-// document.write("<br/> after <br/> value1: " +value1);
+value1 = 5;
+document.write("<br/> after <br/> value1: " +value1);
  
-// };
-// var value2=7
+};
+var value2=7
   
-// passbyvalue(value2)
-// document.write("<br/> after changing value1 to 5 value2 is still:")
-// document.write("<br/>" ,value2);
+passbyvalue(value2)
+document.write("<br/> after changing value1 to 5 value2 is still:")
+document.write("<br/>" ,value2);
 
 // // object passing by reference
-// function changeobject(objvalue){
-//     document.write("<br/> before <br/> objvalue:" +objvalue.x);
-//     document.write("<br/> value: " +value.x);
+function changeobject(objvalue){
+    document.write("<br/> before <br/> objvalue:" +objvalue.x);
+    document.write("<br/> value: " +value.x);
 
-//     objvalue.x=5;
-//     document.write("<br/> after <br/> objvalue: " +objvalue.x);
-// };
+    objvalue.x=5;
+    document.write("<br/> after <br/> objvalue: " +objvalue.x);
+};
 
-// value={x : 7};
-// changeobject(value);
-// document.write("<br/> after changing objvalue to 5 the value: " +value.x);
+value={x : 7};
+changeobject(value);
+document.write("<br/> after changing objvalue to 5 the value: " +value.x);
 
 // // function constructors,prototype and this 
 // class Circle {
