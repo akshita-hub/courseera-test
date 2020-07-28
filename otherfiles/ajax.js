@@ -1,14 +1,14 @@
 function loadDoc(){
     var xhttp = new XMLHttpRequest;
     xhttp.onreadystatechange = function(){
-        if (readyState==4 && status ==200){
-            document.getElementById("demo").innerHTML= responseText;
-        }
-        else{
-            alert("error found");
+        console.log("on readystatechanged");
+        if (this.readyState==4 && this.status ==200){
+            console.log("success", this.responseText)
+            document.getElementById("demo").innerHTML= this.responseText;
+            
         }
     };
-    xhttp.open("GET","C:\Users\NITHIN\Desktop\courseera-test\otherfiles\ajax.text" ,true);
-    xhttp.send(null);
+    xhttp.open("POST","https://my-json-server.typicode.com/typicode/demo/db" ,true);
+    xhttp.send('{"id":4,"title":"post 4"}');
 
 };
