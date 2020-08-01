@@ -3,6 +3,7 @@ body{
     font-size: medium;
     color: mintcream;
     font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -101,6 +102,7 @@ right:50px;
         padding-top: 100px;
 
     }
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -110,5 +112,60 @@ right:50px;
         left:140px;
         top:0px;
     }
+}
+.main{
+    height:1500px;
+    overflow:auto;
+}
+   
+ 
+.container .jumbotron  {
+    padding:0px;
+    margin-right:120px;
+    margin-top: 20px;
+}
+
+.menu-details {
+    height: 190px;
+    width:100%;
+    border:2px solid rgb(0, 98, 130);
+    overflow:hidden;
+    background-image: url("./download-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.special-details{
+    height: 190px;
+    width:100%;
+    border:2px solid rgb(0, 98, 130);
+    overflow:hidden;
+    background-image: url("./specials-2.jpg") no-repeat;
+    background-position: center;
+}
+.map-details{
+    height: 190px;
+    width:100%;
+    border:2px solid rgb(0, 98, 130);
+    overflow:hidden;
+}
+.menu-details:hover{
+    box-shadow:0 1px 5px 1px mintcream;
+}
+.special-details:hover,.special-details:hover,.map-details:hover{
+    box-shadow:0 1px 5px 1px mintcream;
+
+}
+.map-details:hover{
+    box-shadow:0 1px 5px 1px mintcream;
+}
+.menu-details span{
+    color: black;
     
- }
+}
+.special-details span{
+    color:black;
+}
+.map-details span{
+    color: black;
+}
