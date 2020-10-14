@@ -1,0 +1,345 @@
+body{
+    background-color: brown;
+    font-size: small;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand h1{
+    font-family: 'Arima Madurai', cursive;
+    color:brown;
+    font-weight: 800;
+    font-style: italic;
+    font-size: x-large;
+    margin-top:0;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom:0px;
+}
+.navbar-brand h1:hover{
+    font-size:xx-large;
+}
+#logo:hover{
+    box-shadow: 1px 2px 10px 2px brown;
+}
+.navbar-brand p img{
+    border:1px solid maroon;
+}
+ .navbar-brand p {
+     
+    /* font-size: small; */
+    vertical-align: middle;
+    /* margin-top: 20px; */
+}
+.navbar-brand p span{
+    font-size: small;
+}
+.navbar-toggler {
+/* position:fixed;
+right:50px; */
+position: absolute;
+left:600px;
+}
+/* #navbarnav .navbar-collapse .collapse{
+    justify-content:center !important;
+} */
+
+#nav-list{
+    width:500px;
+    margin-top: 10px;
+    margin-left:250px;
+}
+.oi{
+    right:5px;
+}
+#nav-list .nav-item a{
+    color: rgba(216, 112, 147, 0.932);
+    text-align: center;
+    font-family: 'playfair display';
+    font-weight: 700;
+    font-size: larger;
+    
+}
+#nav-list .nav-item a:hover{
+    background-color: whitesmoke;
+}
+#nav-list .nav-item a {
+    font-size: 1.5em ;
+}
+#phone{
+    margin-top:5px;
+}
+#phone a{
+    text-align:right;
+    padding-bottom:0;
+    font-family: sans-serif!important;
+    border:2px solid maroon;
+    background-color: burlywood;
+}
+#phone a:hover{
+    font-size: 1.3rem;
+}
+#phone div{
+    color:palevioletred;
+    text-align:right;
+    padding-right:15px;
+    font-family: 'playfair display';
+    font-weight: 700;
+    font-size: larger;
+}
+.navbar-light .navbar-toggler{
+    border-color: maroon;
+    
+}
+#main-content{
+    padding-top:30px;
+}
+h3{
+    color:burlywood;
+    font-family: "Playfair display";
+    /* font-weight: 700; */
+
+}
+h3:hover{
+    font-size:1.79em;
+    color:aliceblue;
+}
+.special-tile{
+    position: relative;
+    height:250px;
+    width:250px;
+    border:2px solid rgb(0, 98, 130);
+    margin:0 auto 15px;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+.special-tile span{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:rgba(128, 0, 0, 0.966);
+    background-color: grey;
+    opacity:0.8;
+    font-family: 'El Messiri';
+    font-weight: 800;
+    text-shadow: 1px 2px 10px;
+}
+.special-tile:hover{
+    box-shadow:0 1px 10px 1px mintcream;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) { 
+    .main{
+        
+    overflow:auto;
+    }
+    .brand  {
+        /* position: fixed !important; */
+        display:inline-block !important;
+        right:90px;
+        top:20px;
+    }
+    .navbar-brand h1{
+        font-size: smaller;
+    }
+    #nav-list{
+        align-items:flex-end;
+    }
+    #nav-list .nav-item a{
+        color:rgb(0, 98, 130) ;
+    }
+    #navbarnav{
+        padding-top: 100px !important;
+        /* justify-content:center !important; */
+        }
+
+    .navbar-toggler {
+        /* position:fixed;
+        right:50px; */
+        /* position: absolute; */
+        left:280px !important;
+    }
+    .special-tile{
+        width: 150px !important;
+        height:150px !important;
+    }
+    
+    .page-footer{
+        background-color: goldenrod;
+        height:270px !important;
+}
+#hours > span{
+    font-size: small !important;
+    }
+#address > span{
+    font-size: small !important;
+}
+#testimonials > span{
+    font-size:small !important;
+}
+#hours{
+    line-height: 1 !important;
+    word-spacing: 8px !important;
+    display:inline-block !important;
+    bottom:50px !important;
+}
+#address{
+    line-height: 1 !important;
+    display:inline-block;
+    bottom:70px !important;
+}
+#testimonials{
+    display: inline-block;
+    bottom: 80px !important;
+}
+#testimonials p{
+   
+    margin-top:em !important;
+}
+ div .footer-copyright{
+     display:inline-block;
+     margin-top: 40px;
+
+
+}
+
+}
+
+
+/* // Medium devices (tablets, 768px and down) */ 
+ @media (min-width:577px) and (max-width: 768px) { 
+    .main{
+        
+    overflow:auto;
+}    
+    .brand  {
+        /* position: fixed !important; */
+        display:inline-block !important;
+        top:20px !important ;
+        right:350px !important;
+    }
+    .navbar-brand h1{
+        font-size: smaller;
+        padding-left: 110px !important;
+        padding-top:0px !important;
+
+    }
+    .navbar-brand p{
+        margin-left:6em !important;
+    }
+    #nav-list{
+        align-items:flex-end;
+    }
+    #nav-list .nav-item a{
+        color:rgb(0, 98, 130) ;
+    }
+    #navbarNav{
+        padding-top:100px !important;
+    }
+    .special-tile{
+        width:170px !important;
+        height: 170px !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width:769px) and (max-width:1200px) { 
+    .main{
+        
+        overflow: auto;
+    }
+    .brand  {
+        position:absolute !important;
+        left:150px;
+        top:0px;
+    }
+    .special-tile{
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+/* end of large devices */
+    
+.main {
+
+      overflow:hidden;
+}
+
+   
+ 
+
+.page-footer{
+    margin-top: 30px;
+    padding-top:35px;
+    padding-bottom: 35px;
+    background-color:goldenrod;
+    border-top: 0;
+    height: 230px;
+    
+}
+
+.page-footer div.row{
+    margin-bottom: 35px;
+    height: 140px;
+    
+}
+#hours{
+    line-height: 2;
+    word-spacing: 10px;
+    display:inline-block;
+    bottom:40px;
+}
+#address{
+    line-height: 2;
+    display:inline-block;
+    bottom:40px;
+}
+#testimonials {
+    
+    display:inline-block;
+    bottom:40px;
+
+}
+#hours > span{
+    font-size: large;
+    color: black;
+}
+#address > span{
+    font-size: large;
+    color:black;
+}
+#testimonials > span{
+    font-size: large;
+    color: black;
+}
+#testimonials p{
+    margin-bottom: -1rem;
+    margin-top:0.5em
+}
+
+#hours p {
+    font-size: small;
+    font-family: cursive;
+    color:maroon;
+    
+}
+.footer-copyright{
+
+    color: black;
+    text-decoration: underline;
+}
+
+
+ 
+
+ 

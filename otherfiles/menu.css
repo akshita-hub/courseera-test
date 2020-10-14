@@ -1,0 +1,196 @@
+body{
+    /* background-image: url("menu\ background3\ \(1\).png");
+    background-repeat: no-repeat; */
+    background-color:goldenrod !important;
+    color:black;
+} 
+.main{
+    overflow:auto;
+    
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap"); */
+b{
+    font-size: x-large;
+    font-style: italic;
+    color:red;
+}
+h2 a{
+    font-size: 1em;
+    text-decoration: none;
+}
+h2 a:hover{
+    font-size: 1.3em;
+    color: teal;
+}
+.oi{
+    color:indigo;
+}
+
+h3{
+    color: black;
+    font-size: 1em;
+    text-decoration-line: none !important;
+    
+}
+th{
+    color: rgb(0, 98, 130);
+    font-size: x-large;
+    
+}
+thead{
+    font-size:medium;
+    font-family: cursive;
+
+    
+}
+#nonveg{
+    display: inline-block;
+    width: 30px;
+}
+#veg{
+    display: inline-block;
+    width: 30px;
+
+}
+
+h3{
+    display:inline-block;
+    padding-left:5px ;
+}
+
+body h1{
+    color: brown;
+    text-align:center;
+    font-family: "Playfair display";
+    font-weight: 700;
+}
+body h1:hover{
+    
+    color:green;
+    font-size: 3em;
+}
+h1:focus-visible{
+    background-color: greenyellow;
+
+}
+#starters{
+    display:inline-block;
+    vertical-align: top;
+}
+#maincourse{
+    display: inline-block;
+    padding-left: 50px;
+}
+#desserts{
+display:inline-table;
+position:absolute;
+left:800;
+top:140;
+}
+#juice{
+    display:inline-table;
+    position:absolute;
+    left:800;
+    top:450;
+
+}
+.quantity:hover{
+    font-size: larger;
+    
+}
+
+ .buttons{
+     display:inline-block;
+     position: absolute;
+     left:500;
+ }
+    
+
+.buttonorder{
+    background-color: brown;
+    border-radius:20px ;
+    width:200px;
+    height:50px;
+    color:black;
+    font-family: 'Arima madurai';
+    font-weight: 800;
+    
+}
+.resetbutton{
+    background-color: brown;
+    border-radius: 20px;
+    width:200px;
+    height:50px;
+    color:black ;
+    font-family: 'Arima madurai';
+    font-weight: 800;
+}
+.buttonorder:hover{
+    border-color:rgba(43, 3, 43, 0.863);
+    border-width: 5px;
+}
+.resetbutton:hover{
+    border-color: rgba(43, 3, 43, 0.863);
+    border-width: 5px;
+
+}
+/* // Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) { 
+    body h1{
+        font-size: small !important;
+    }
+    b{
+        font-size:small !important;
+    }
+    h3{
+        font-size: 1em !important;
+    }
+    th{
+        font-size: small !important;
+    }
+    thead{
+        font-size: small !important;
+    }
+    #desserts{
+        left:350px !important;
+    }
+    #juice{
+        left:400px;
+    }
+    table{
+        line-height: 1em !important;
+    }
+    .buttons{
+        left:300px;
+    }
+}
+/* // Medium devices (tablets, 768px and down) */ 
+@media (min-width:577px) and (max-width: 769px) { 
+    body h1{
+        font-size: medium !important;
+}
+b{
+    font-size: medium;
+}
+th{
+    font-size: medium !important;
+}
+#desserts{
+    left:750px !important;
+}
+#juice{
+    left:750px !important;
+}
+.buttons{
+    left:700px !important;
+}
+}
+
+
+
+
+
+
+
+
+
